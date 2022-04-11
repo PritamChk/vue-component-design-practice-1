@@ -1,11 +1,11 @@
 <template>
-  <div class="flex flex-col md:flex-row justify-center align-middle">
-    <SubjectCard ></SubjectCard>
+  <div class="my-24 flex flex-col justify-center align-middle lg:flex-row">
+    <SubjectCard></SubjectCard>
   </div>
 </template>
 
 <script>
-import  SubjectCard  from "./components/SubjectCard.vue";
+import SubjectCard from "./components/SubjectCard.vue";
 export default {
   // name:"App",
   components: {
@@ -14,6 +14,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
