@@ -5,3 +5,7 @@
 #app {
   @apply text-left text-white;
 }
+.input-box {
+  @apply bg-black text-gray-100 rounded-lg px-2 py-1 mx-1 outline-none ring-inset transition-all duration-200 ease-in-out focus:ring-4 focus:ring-fuchsia-400/80;
+}
+
