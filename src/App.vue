@@ -1,6 +1,8 @@
 <template>
   <div class="flex flex-col justify-center align-middle">
-    <div class="mx-auto rounded-md shadow-md shadow-fuchsia-500 mt-10 p-4 w-3/5 h-4/5">
+    <div
+      class="mx-auto mt-10 h-4/5 w-3/5 rounded-md p-4 shadow-md shadow-fuchsia-500"
+    >
       <SignUpForm></SignUpForm>
     </div>
     <div
