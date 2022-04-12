@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col justify-center align-middle">
-    <div class="container">
+    <div class="mx-auto rounded-md shadow-md shadow-fuchsia-500 mt-10 p-4 w-3/5 h-4/5">
       <SignUpForm></SignUpForm>
     </div>
     <div
