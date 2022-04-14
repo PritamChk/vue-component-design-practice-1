@@ -1,5 +1,8 @@
 <template>
   <div class="relative flex flex-col justify-center align-middle">
+    <img 
+    class="absolute w-screen h-screen top-0 object-cover"
+    src="./assets/wallpaper_1.jpg" alt="No Image Found">
     <NavBar></NavBar>
     <div
       class="my-24 flex flex-1 flex-col justify-center align-middle lg:flex-row"

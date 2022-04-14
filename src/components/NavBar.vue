@@ -1,17 +1,26 @@
 <template>
-  <nav class="sticky top-0 z-20 bg-gradient-to-br from-slate-200/20 to-slate-100/10 drop-shadow-md backdrop-filter backdrop-blur-md">
-      <ul class="flex flex-row justify-evenly items-center align-middle p-2">
-        <li>
-          <a href="#">Link 1</a>
-        </li>
-        <li>
-          <a href="#">Link 2</a>
-        </li>
-        <li>
-          <a href="#">Link 3</a>
-        </li>
-      </ul>
-    </nav>
+  <nav
+    class="sticky top-0 z-20 bg-gradient-to-br from-slate-200/20 to-slate-100/10 drop-shadow-md backdrop-blur-md backdrop-filter"
+  >
+    <ul class="flex flex-row items-center justify-evenly p-2 align-middle">
+      <li
+        class="hover: rounded px-5 py-1 backdrop-blur-xl transition-all duration-100 ease-in-out hover:bg-slate-50/50 hover:drop-shadow-xl hover:backdrop-filter"
+      >
+        <a href="#">Dashboard</a>
+      </li>
+      <li
+        class="hover: rounded px-5 py-1 backdrop-blur-xl transition-all duration-100 ease-in-out hover:bg-slate-50/50 hover:drop-shadow-xl hover:backdrop-filter"
+      >
+        <a href="#">Profile</a>
+      </li>
+      <li
+        class="hover: rounded px-5 py-1 backdrop-blur-xl transition-all duration-100 ease-in-out hover:bg-slate-50/50 hover:drop-shadow-xl hover:backdrop-filter"
+      >
+        <a href="#">Sign Up</a>
+      </li>
+      
+    </ul>
+  </nav>
 </template>
 
 <script>

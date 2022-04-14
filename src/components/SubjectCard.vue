@@ -2,7 +2,7 @@
   <template v-for="card in cards" :key="card.code">
     <!-- cards -->
     <div
-      class="mx-4 my-3 flex flex-1 flex-col flex-wrap justify-evenly rounded-2xl bg-slate-500/20 p-4 text-center align-middle shadow-md shadow-blue-400/60 transition duration-200 ease-in-out hover:scale-105 hover:bg-slate-400/20"
+      class="mx-4 my-3 flex flex-1 flex-col flex-wrap justify-evenly rounded-2xl bg-slate-500/20 p-4 text-center align-middle shadow-md shadow-blue-400/20 backdrop-blur-md backdrop-filter transition duration-200 ease-in-out hover:scale-105 hover:bg-slate-400/20 hover:backdrop-blur-lg object-cover"
     >
       <img
         class="mx-auto aspect-square h-2/5"
@@ -14,7 +14,7 @@
         card.code
       }}</pre>
 
-      <div class="text-2xl font-semibold text-fuchsia-600">
+      <div class="text-2xl font-semibold text-slate-50">
         {{ card.title }}
       </div>
     </div>
