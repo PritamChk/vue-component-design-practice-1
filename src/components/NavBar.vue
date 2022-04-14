@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="sticky top-0 z-20 bg-gradient-to-br from-slate-200/20 to-slate-100/10 drop-shadow-md backdrop-blur-sm backdrop-filter"
+    class="sticky top-0 z-20 bg-gradient-to-br from-slate-200/20 to-slate-100/10 shadow-md backdrop-blur-sm backdrop-filter"
   >
     <ul class="flex flex-row items-center justify-evenly p-2 align-middle">
       <li
@@ -18,7 +18,6 @@
       >
         <a href="#">Sign Up</a>
       </li>
-      
     </ul>
   </nav>
 </template>
