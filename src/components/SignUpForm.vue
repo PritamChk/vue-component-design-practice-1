@@ -1,7 +1,7 @@
 <template>
   <form
     action="javascript:void(0)"
-    class="flex flex-col justify-center align-middle text-gray-600"
+    class="flex flex-col justify-center align-middle text-gray-600 "
   >
     <div
       class="grid grid-flow-row grid-cols-2 grid-rows-3 gap-2 md:grid-rows-2"
