@@ -1,5 +1,7 @@
 <template>
-  <div class="relative flex flex-col justify-center align-middle scrollbar-hide">
+  <div
+    class="relative flex flex-col justify-center align-middle scrollbar-hide"
+  >
     <img
       class="absolute top-0 h-screen w-screen object-cover"
       src="./assets/wallpaper_2.jpg"
@@ -13,7 +15,7 @@
     </div>
     <div class="relative">
       <img
-        class="absolute top-0 h-screen w-screen object-cover -z-20"
+        class="absolute top-0 -z-20 h-screen w-screen object-cover"
         src="./assets/wallpaper_1.jpg"
         alt="No Image Found"
       />
