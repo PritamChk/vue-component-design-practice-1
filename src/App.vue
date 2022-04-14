@@ -1,8 +1,6 @@
 <template>
-  <div class="flex flex-col justify-center align-middle">
-    <div class="min-w-full sticky top-0">
-      <NavBar></NavBar>
-    </div>
+  <div class="relative flex flex-col justify-center align-middle">
+    <NavBar></NavBar>
     <div
       class="my-24 flex flex-1 flex-col justify-center align-middle lg:flex-row"
     >
