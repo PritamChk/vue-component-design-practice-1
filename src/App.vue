@@ -1,31 +1,37 @@
 <template>
-  <div
-    class="relative flex flex-col justify-center align-middle scrollbar-hide"
-  >
+  <div class="relative">
     <img
       class="absolute top-0 h-screen w-screen object-cover"
+      src="./assets/wallpaper_1.jpg"
+      alt="No Image Found"
+    />
+  </div>
+  <div>
+    <img
+      class="absolute custom-top h-screen w-screen object-cover"
       src="./assets/wallpaper_2.jpg"
       alt="No Image Found"
     />
+  </div>
+  <div
+    class="relative flex flex-col justify-center align-middle scrollbar-hide"
+  >
     <NavBar></NavBar>
     <div
       class="my-24 flex flex-1 flex-col justify-center align-middle lg:flex-row"
     >
       <SubjectCard></SubjectCard>
     </div>
-    <div class="relative">
-      <img
-        class="absolute top-0 -z-20 h-screen w-screen object-cover"
-        src="./assets/wallpaper_1.jpg"
-        alt="No Image Found"
-      />
+    <div class="flex flex-col items-center justify-evenly w-screen">
+      <div class="my-10 flex-1 w-4/5 md:w-3/5 lg:2/5">
+        <Form></Form>
+      </div>
       <div
         class="mx-auto mt-10 h-4/5 w-3/5 rounded-md p-4 shadow-sm shadow-stone-50 backdrop-blur-lg backdrop-filter"
       >
         <SignUpForm></SignUpForm>
       </div>
     </div>
-    <Form></Form>
   </div>
 </template>
 
@@ -43,9 +49,13 @@ export default {
     SignUpForm,
     SignUpForm1,
     NavBar,
-    Form
+    Form,
   },
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.custom-top{
+  top:610px
+}
+</style>
