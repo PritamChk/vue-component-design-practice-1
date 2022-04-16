@@ -34,7 +34,7 @@
 <script>
 import SubjectCard from "./components/SubjectCard.vue";
 import NavBar from "./components/NavBar.vue";
-import Form from "./components/Form.vue";
+import Form from "./components/SignUpForm.vue";
 
 export default {
   // name:"App",

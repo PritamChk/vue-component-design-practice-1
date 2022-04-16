@@ -82,7 +82,7 @@
       <div class="form-section">
         <label for="Dept" class="label">Department</label>
         <select required class="input-blur uppercase" v-model="user.dept">
-          <option disabled selected value="None">Your Semester</option>
+          <option disabled selected value="None">Your Depertment</option>
           <option v-for="dept in depts" :key="dept" class="label">
             {{ dept }}
           </option>
@@ -110,7 +110,6 @@
           v-model="user.teacher_depts"
           multiple
         >
-          <option disabled selected value="None">Your depertments</option>
           <option v-for="dept in depts" :key="dept" class="label">
             {{ dept }}
           </option>
@@ -147,7 +146,7 @@ export default {
         password: "",
         category: "teacher",
         sem: 1,
-        dept: "",
+        dept: "MCA",
         batch_year: 2020,
         teacher_depts: [],
       },
