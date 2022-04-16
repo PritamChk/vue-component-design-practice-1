@@ -44,6 +44,15 @@
           <component :is="activeTab"></component>
         </keep-alive>
       </div>
+      <div class="lg:2/5 my-10 w-4/5 flex-1 md:w-3/5">
+        <div class="flex w-full flex-col justify-evenly align-middle md:flex-row">
+          <router-link to="/signup"  class="button button-success-focus">Sign Up</router-link>
+          <router-link to="/login" class="button button-success-focus">Login</router-link>
+        </div>
+        <keep-alive>
+          <router-view></router-view>
+        </keep-alive>
+      </div>
     </div>
   </div>
 </template>

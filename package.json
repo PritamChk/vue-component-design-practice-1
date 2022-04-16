@@ -11,7 +11,8 @@
     "@heroicons/vue": "^1.0.6",
     "daisyui": "^2.14.0",
     "tailwind-scrollbar-hide": "^1.1.7",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.0",
