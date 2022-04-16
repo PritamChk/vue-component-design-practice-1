@@ -1,5 +1,5 @@
 <template>
-  <form class="form">
+  <form class="form w-2/3 h-3/5 my-5 mx-auto">
     <div class="form-section">
       <label class="label" for="fname">First Name</label>
       <input

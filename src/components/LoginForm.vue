@@ -1,5 +1,5 @@
 <template>
-  <from class="form">
+  <from class="form w-2/3 h-3/5 my-5 mx-auto">
     <div class="form-section">
       <label for="email" class="label">Email</label>
       <input
