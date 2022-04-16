@@ -29,6 +29,9 @@
 .button-success{
   @apply border-2 border-transparent hover:border-2 hover:border-lime-400 hover:text-lime-400
 }
+.button-success-focus{
+  @apply border-2 border-transparent focus:border-2 focus:border-lime-400 focus:text-lime-400
+}
 .button-danger{
   @apply border-2 border-transparent hover:border-2 hover:border-pink-500 hover:text-pink-500
 }

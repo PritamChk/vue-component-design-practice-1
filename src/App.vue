@@ -8,7 +8,7 @@
   </div>
   <div>
     <img
-      class="absolute custom-top h-screen w-screen object-cover"
+      class="custom-top absolute h-screen w-screen object-cover"
       src="./assets/wallpaper_2.jpg"
       alt="No Image Found"
     />
@@ -22,11 +22,26 @@
     >
       <SubjectCard></SubjectCard>
     </div>
-    <div class="flex flex-col items-center justify-evenly w-screen">
-      <div class="my-10 flex-1 w-4/5 md:w-3/5 lg:2/5">
-        <Form></Form>
+    <div class="flex flex-row justify-evenly align-middle">
+      <button
+        class="button button-success-focus"
+        @click="activeTab = 'Form'"
+        tabindex="1"
+      >
+        Signup
+      </button>
+      <button
+        class="button button-success-focus"
+        @click="activeTab = 'LoginForm'"
+        tabindex="2"
+      >
+        Login
+      </button>
+    </div>
+    <div class="flex w-screen flex-col items-center justify-evenly">
+      <div class="lg:2/5 my-10 w-4/5 flex-1 md:w-3/5">
+        <component :is="activeTab"></component>
       </div>
-      
     </div>
   </div>
 </template>
@@ -35,6 +50,7 @@
 import SubjectCard from "./components/SubjectCard.vue";
 import NavBar from "./components/NavBar.vue";
 import Form from "./components/SignUpForm.vue";
+import LoginForm from "./components/LoginForm.vue";
 
 export default {
   // name:"App",
@@ -42,12 +58,18 @@ export default {
     SubjectCard,
     NavBar,
     Form,
+    LoginForm,
+  },
+  data() {
+    return {
+      activeTab: "",
+    };
   },
 };
 </script>
 
 <style scoped>
-.custom-top{
-  top:610px
+.custom-top {
+  top: 610px;
 }
 </style>
