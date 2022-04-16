@@ -3,15 +3,15 @@
     class="form"
   >
     <div class="form-section">
-      <label class="label-2" for="fname">First Name</label>
+      <label class="label" for="fname">First Name</label>
       <input type="text" placeholder="Type here" class="input-blur" />
     </div>
     <div class="form-section">
-      <label class="label-2" for="fname">Last Name</label>
+      <label class="label" for="fname">Last Name</label>
       <input type="text" placeholder="Type here" class="input-blur" />
     </div>
     <div class="form-section">
-      <label class="label-2" for="age"> Age </label>
+      <label class="label" for="age"> Age </label>
       <input
         class="input-blur"
         type="number"
@@ -23,8 +23,8 @@
       />
     </div>
     <div class="form-section">
-      <button type="submit" class="button hover:bg-gradient-to-tl from-lime-400/50 to-gray-800/25">Submit</button>
-      <button type="reset" class="button hover:bg-gradient-to-tl from-red-400/40 to-gray-800/25">Reset</button>
+      <button type="submit" class="button hover:bg-gradient-to-tl from-lime-400/50 to-green-200/25">Submit</button>
+      <button type="reset" class="button hover:bg-gradient-to-tl from-red-400/40 to-pink-200/50">Reset</button>
     </div>
   </form>
 

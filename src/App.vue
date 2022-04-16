@@ -26,19 +26,13 @@
       <div class="my-10 flex-1 w-4/5 md:w-3/5 lg:2/5">
         <Form></Form>
       </div>
-      <div
-        class="mx-auto mt-10 h-4/5 w-3/5 rounded-md p-4 shadow-sm shadow-stone-50 backdrop-blur-lg backdrop-filter"
-      >
-        <SignUpForm></SignUpForm>
-      </div>
+      
     </div>
   </div>
 </template>
 
 <script>
 import SubjectCard from "./components/SubjectCard.vue";
-import SignUpForm from "./components/SignUpForm.vue";
-import SignUpForm1 from "./components/SignUpForm.vue";
 import NavBar from "./components/NavBar.vue";
 import Form from "./components/Form.vue";
 
@@ -46,8 +40,6 @@ export default {
   // name:"App",
   components: {
     SubjectCard,
-    SignUpForm,
-    SignUpForm1,
     NavBar,
     Form,
   },

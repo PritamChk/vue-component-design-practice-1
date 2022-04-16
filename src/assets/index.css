@@ -5,26 +5,17 @@
 #app {
   @apply text-left text-white;
 }
-.input-box {
-  @apply mx-1 my-1 w-full rounded-lg bg-black px-2 py-1 text-gray-100 outline-none ring-inset transition-all duration-200 ease-in-out focus:ring-4 focus:ring-fuchsia-400/80;
-}
 
 .input-blur {
   @apply h-10 w-full max-w-xs rounded-lg  bg-gray-700/70 px-4 py-2 uppercase shadow-md outline-none backdrop-blur-md backdrop-filter transition duration-500 ease-in-out focus-within:border-green-300/90 focus:right-2 focus:scale-110 focus:rounded-xl focus:border-b-2 focus:border-r-4 focus:text-green-300;
 }
 
 .label {
-  @apply ml-2 p-1 text-lime-300;
-}
-.label-2 {
-  @apply mx-4 md:mx-2 p-1 text-left text-lg font-semibold text-white drop-shadow-md filter self-start md:self-center;
-}
-.form-header {
-  @apply text-xl text-pink-500;
+  @apply mx-4 self-start p-1 text-left text-lg font-semibold text-white drop-shadow-md filter md:mx-2 md:self-center;
 }
 
-.form{
-  @apply flex flex-1 shadow-gray-900/25 shadow-md flex-col rounded-xl bg-slate-200/20 px-2 py-1 backdrop-blur-md backdrop-filter;
+.form {
+  @apply flex flex-1 flex-col rounded-xl bg-slate-200/20 px-2 py-1 shadow-md shadow-gray-900/25 backdrop-blur-md backdrop-filter;
 }
 
 .form-section {
@@ -32,5 +23,5 @@
 }
 
 .button {
-  @apply m-2 w-full md:w-1/3 rounded-2xl bg-slate-900/50 px-4 py-2 font-semibold backdrop-blur-md backdrop-filter transition duration-300 ease-linear hover:text-black;
+  @apply m-2 w-full rounded-2xl bg-slate-900/50 px-4 py-2 font-semibold backdrop-blur-md backdrop-filter transition duration-300 ease-linear hover:text-black md:w-1/3;
 }
