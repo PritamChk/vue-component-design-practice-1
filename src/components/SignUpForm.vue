@@ -71,6 +71,18 @@
     </div>
     <template v-if="user.category === 'student'">
       <div class="form-section">
+        <label for="Sem" class="label">University Roll</label>
+        <input
+          type="text"
+          name="univ_roll"
+          id="roll"
+          v-model="user.univ_roll"
+          required
+          class="input-blur"
+          pattern="[0-9]{11}"
+        />
+      </div>
+      <div class="form-section">
         <label for="Sem" class="label">Semester</label>
         <select required class="input-blur" v-model="user.sem">
           <option disabled selected value="None">Your Semester</option>
@@ -148,7 +160,8 @@ export default {
         sem: 1,
         dept: "MCA",
         batch_year: 2020,
-        teacher_depts: [],
+        univ_roll:'',
+        teacher_depts: []
       },
     };
   },
@@ -163,6 +176,7 @@ export default {
         sem: 1,
         dept: "",
         batch_year: 2020,
+        univ_roll:'',
         teacher_depts: [],
       };
     },
