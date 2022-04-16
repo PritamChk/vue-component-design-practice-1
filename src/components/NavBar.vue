@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="sticky top-0 z-20 bg-gradient-to-br from-slate-200/20 to-slate-100/10 shadow-md backdrop-blur-sm backdrop-filter"
+    class="sticky top-0 z-20 bg-gradient-to-t from-slate-600/60 to-slate-700/80 shadow-md backdrop-blur-sm backdrop-filter"
   >
     <ul class="flex flex-wrap flex-col md:flex-row items-center justify-evenly p-2 align-middle">
       <li
