@@ -23,7 +23,7 @@
       <SubjectCard></SubjectCard>
     </div>
     <div class="flex w-screen flex-col items-center justify-evenly">
-      <div class="flex flex-col md:flex-row justify-evenly align-middle w-full">
+      <div class="flex w-full flex-col justify-evenly align-middle md:flex-row">
         <button
           class="button button-success-focus"
           @click="activeTab = 'Form'"
@@ -40,7 +40,9 @@
         </button>
       </div>
       <div class="lg:2/5 my-10 w-4/5 flex-1 md:w-3/5">
-        <component :is="activeTab"></component>
+        <keep-alive>
+          <component :is="activeTab"></component>
+        </keep-alive>
       </div>
     </div>
   </div>
@@ -62,7 +64,7 @@ export default {
   },
   data() {
     return {
-      activeTab: "",
+      activeTab: "Form",
     };
   },
 };
