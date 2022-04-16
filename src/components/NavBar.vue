@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="sticky top-0 z-20 bg-slate-700/70 shadow-md backdrop-blur-sm backdrop-filter"
+    class="sticky top-0 z-20 bg-slate-900/60 shadow-md backdrop-blur-sm backdrop-filter"
   >
     <ul
       class="flex flex-col flex-wrap items-center justify-evenly p-2 align-middle md:flex-row"

@@ -40,6 +40,18 @@ export default {
           title: "sub 3",
           code: "301C",
         },
+        {
+          title: "sub 4",
+          code: "304B",
+        },
+        {
+          title: "sub 5",
+          code: "351C",
+        },
+        {
+          title: "sub 6",
+          code: "601C",
+        },
       ],
     };
   },
